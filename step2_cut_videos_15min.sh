@@ -1,5 +1,5 @@
-IN_DATA_DIR="./videos/trainval/"
-OUT_DATA_DIR="./videos_15min"
+IN_DATA_DIR="../videos/trainval/"
+OUT_DATA_DIR="../videos_15min"
 
 if [[ ! -d "${OUT_DATA_DIR}" ]]; then
   echo "${OUT_DATA_DIR} doesn't exist. Creating it.";
