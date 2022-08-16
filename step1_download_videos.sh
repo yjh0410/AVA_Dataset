@@ -442,11 +442,3 @@ wget https://s3.amazonaws.com/ava-dataset/test/z5lg_3abT-s.mkv
 wget https://s3.amazonaws.com/ava-dataset/test/zm78XnWN7MU.mkv
 wget https://s3.amazonaws.com/ava-dataset/test/zvxnOrzTg0M.mp4
 
-# Download Annotations
-cd ../..
-mkdir annotations
-cd annotations
-
-wget https://s3.amazonaws.com/ava-dataset/annotations/ava_v2.2.zip
-
-unzip ava_v2.2.zip
