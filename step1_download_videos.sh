@@ -1,4 +1,7 @@
 # Download trainval
+mkdir videos
+cd videos
+
 mkdir trainval
 cd trainval
 
@@ -440,7 +443,7 @@ wget https://s3.amazonaws.com/ava-dataset/test/zm78XnWN7MU.mkv
 wget https://s3.amazonaws.com/ava-dataset/test/zvxnOrzTg0M.mp4
 
 # Download Annotations
-cd ..
+cd ../..
 mkdir annotations
 cd annotations
 
