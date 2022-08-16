@@ -1,4 +1,4 @@
-IN_DATA_DIR="./videos"
+IN_DATA_DIR="./videos/trainval/"
 OUT_DATA_DIR="./videos_15min"
 
 if [[ ! -d "${OUT_DATA_DIR}" ]]; then
