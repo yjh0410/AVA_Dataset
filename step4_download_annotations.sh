@@ -2,13 +2,13 @@
 mkdir annotations
 mkdir frame_lists
 
-cd frame_lists
+cd frame_lists # -> frame_lists/
 
 wget https://dl.fbaipublicfiles.com/video-long-term-feature-banks/data/ava/frame_lists/train.csv
 wget https://dl.fbaipublicfiles.com/video-long-term-feature-banks/data/ava/frame_lists/val.csv
 
-cd ..
-cd annotations
+cd ..  # -> ../
+cd annotations  # -> annotations/
 
 wget https://dl.fbaipublicfiles.com/video-long-term-feature-banks/data/ava/annotations/ava_train_predicted_boxes.csv
 wget https://dl.fbaipublicfiles.com/video-long-term-feature-banks/data/ava/annotations/ava_val_predicted_boxes.csv
