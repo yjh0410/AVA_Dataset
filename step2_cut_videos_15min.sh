@@ -1,3 +1,6 @@
+mkdir videos_15min
+
+
 IN_DATA_DIR="./videos/trainval/"
 OUT_DATA_DIR="./videos_15min"
 

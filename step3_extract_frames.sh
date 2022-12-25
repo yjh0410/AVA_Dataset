@@ -1,3 +1,5 @@
+mkdir frames
+
 IN_DATA_DIR="./videos_15min"
 OUT_DATA_DIR="./frames"
 
