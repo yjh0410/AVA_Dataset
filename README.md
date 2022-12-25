@@ -39,7 +39,7 @@ Step-4:
 Run ```step4_download_annotations.sh``` to download annotations.
 
 ```Shell
-    sh step4_download_annotations.sh
+sh step4_download_annotations.sh
 ```
 
 ```
@@ -78,8 +78,8 @@ AVA_Dataset
 ## Other process
 Besides the above process, you can also download `videos_15min` from the BaiduYunDisk as follow:
 
-Link: comming soon ...
+Link: https://pan.baidu.com/s/11vKDyOTGAyQhdVtiDp8nKw 
 
-password: comming soon ...
+password: k0hm
 
 After that, you just need to carry out `step3` and `step4` above.
