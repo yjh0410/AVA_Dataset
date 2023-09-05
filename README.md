@@ -11,6 +11,11 @@ sh step1_download_videos.sh
 ```
 
 Step-2:
+* Install `ffmpeg` in Linux system.
+```Shell
+sudo apt-get install ffmpeg
+```
+
 * Run ```step2_cut_videos_15min.sh``` to cut each video from its 15th to 30th minute.
 
 ```Shell
@@ -18,12 +23,6 @@ sh step2_cut_videos_15min.sh
 ```
 
 Step-3:
-
-* Install `ffmpeg` in Linux system.
-```Shell
-sudo apt-get install ffmpeg
-```
-
 * Give permission
 ```Shell
 sudo chmod -R 755 step3_extract_frames.sh
